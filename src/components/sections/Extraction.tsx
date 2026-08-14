@@ -26,7 +26,7 @@ export function Extraction() {
       className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-24 lg:grid-cols-[minmax(0,1fr)_220px] lg:gap-16"
     >
       {/* Content */}
-      <div className="min-w-0 lg:order-1">
+      <div className="order-2 min-w-0 lg:order-1">
         <div className="border-t border-b border-border py-6 font-mono text-sm">
           {links.map((link) => (
             <div
@@ -60,7 +60,7 @@ export function Extraction() {
       </div>
 
       {/* Section Identity */}
-      <div className="lg:order-2 lg:sticky lg:top-28 lg:self-start">
+      <div className="order-1 lg:order-2 lg:sticky lg:top-28 lg:self-start">
         <div className="flex items-start gap-4 lg:block">
           <div className="mb-4 text-text-dim">
             <CommsIcon />
