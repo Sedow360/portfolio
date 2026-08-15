@@ -115,13 +115,19 @@ function TimelineItem({
   const dotColor = useTransform(
     scrollYProgress,
     [startRange, startRange + 0.05],
-    ["var(--border-color, #303633)", "var(--accent-color, #D94A3D)"]
+    [
+        "var(--border-color, #303633)",
+        "#f36614",
+    ]
   )
 
   const dotGlow = useTransform(
     scrollYProgress,
     [startRange, startRange + 0.05],
-    ["rgba(217,74,61,0)", "rgba(1, 17, 238, 0.5)"]
+    [
+        "rgba(77, 163, 255, 0)",
+        "rgba(77, 163, 255, 0.9)",
+    ]
   )
 
   return (
