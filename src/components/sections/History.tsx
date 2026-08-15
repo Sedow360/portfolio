@@ -121,7 +121,7 @@ function TimelineItem({
   const dotGlow = useTransform(
     scrollYProgress,
     [startRange, startRange + 0.05],
-    ["rgba(217,74,61,0)", "rgba(217,74,61,0.5)"]
+    ["rgba(217,74,61,0)", "rgba(1, 17, 238, 0.5)"]
   )
 
   return (

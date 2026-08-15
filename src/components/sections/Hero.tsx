@@ -5,7 +5,7 @@ const navItems = [
   { idx: "01", label: "Field Operations", href: "#operations" },
   { idx: "02", label: "Loadout", href: "#loadout" },
   { idx: "03", label: "Service History", href: "#history" },
-  { idx: "04", label: "Extraction", href: "#extraction" },
+  { idx: "04", label: "Recruitment", href: "#extraction" },
 ]
 
 const aboutSummary =
